@@ -1,12 +1,13 @@
 import "./App.css";
-
+import MainTemplate from "./components/templates/MainTemplate.js";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <>
-      <div className="">
-        <h1 className="text-4xs">TAILWINDTESTAILUA</h1>
-      </div>
-    </>
+    <div>
+      <BrowserRouter>
+        <MainTemplate />
+      </BrowserRouter>
+    </div>
   );
 }
 

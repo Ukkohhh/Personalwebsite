@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-Col1: oklch(1 0 0);
+  --color-Col2: oklch(0.1898 0.0352 222.38);
+  --color-Col3: oklch(0.316 0.0828 246.83);
+  --color-Col4: oklch(0.5554 0.1106 229.95);
+  --color-Col5: oklch(0.6904 0.1461 234.82);
+}
