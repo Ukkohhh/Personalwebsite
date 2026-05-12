@@ -7,7 +7,7 @@ interface NavBarButtonProps {
 export default function NavBarButton({ children }: NavBarButtonProps) {
   return (
     <div>
-      <CustomButton width={180} height={100}>
+      <CustomButton width={190} height={100}>
         {children}
       </CustomButton>
     </div>

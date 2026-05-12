@@ -1,4 +1,4 @@
-import "@/App.css"
+import "@/App.css";
 
 interface CustomButtonProps {
   children: string;
@@ -15,7 +15,7 @@ export default function CustomButton({
   return (
     <button
       onClick={onClick}
-      className="text-Col1 text-3xl bg-Col4 hover:bg-Col5 p-3 rounded-3xl font-mono"
+      className="text-Col1 text-3xl bg-Col2 hover:underline font-mono flex justify-center items-center"
       style={{
         width: `${width}px`,
         height: `${height}px`,

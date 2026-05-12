@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div className="flex bg-Col2 text-Col1 justify-center pt-6">
       <nav>
-        <ul className="flex flex-row gap-5">
+        <ul className="flex flex-row gap-4">
           <li>
             <NavLink to="/">
               <NavBarButton>Homepage</NavBarButton>
@@ -27,7 +27,7 @@ export default function NavBar() {
           <li>
             <NavLink to="/Art">
               {" "}
-              <NavBarButton>Art</NavBarButton>
+              <NavBarButton>Art & music</NavBarButton>
             </NavLink>
           </li>
         </ul>
