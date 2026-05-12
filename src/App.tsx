@@ -1,13 +1,11 @@
 import "./App.css";
-import MainTemplate from "./components/templates/MainTemplate.js";
+import MainTemplate from "./components/templates/MainTemplate";
 import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <MainTemplate />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <MainTemplate />
+    </BrowserRouter>
   );
 }
 
