@@ -1,8 +1,7 @@
 import "@/App.css";
 import PortfolioSlot from "../organisms/PortfolioSlot";
 
-const loremDesc =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut laborum magni";
+
 export default function Portfolio() {
   return (
     <div>
