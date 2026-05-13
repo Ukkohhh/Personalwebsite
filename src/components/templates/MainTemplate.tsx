@@ -5,6 +5,7 @@ import Homepage from "../pages/Homepage";
 import Portfolio from "../pages/Portfolio";
 import AboutMe from "../pages/AboutMe";
 import Art from "../pages/Art";
+import ErrorPage from "../pages/ErrorPage"
 
 export default function MainTemplate() {
   return (
@@ -15,6 +16,7 @@ export default function MainTemplate() {
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/Aboutme" element={<AboutMe />} />
         <Route path="/Art" element={<Art />} />
+        <Route path="*" element ={<ErrorPage/>} />
       </Routes>
     </div>
   );
