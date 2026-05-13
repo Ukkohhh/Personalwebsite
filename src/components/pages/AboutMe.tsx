@@ -10,6 +10,7 @@ export default function AboutMe() {
         <p className="text-5xl h-4">Mainly, I'm a software developer,</p>
         <p className="text-5xl h-4">but on the side I'm</p>
       </div>
+      <p className="text-4xl h-4 pb-15 text-Col4">Better pictures coming soon, cat pictures for now</p>
       <div className="flex columns-3 gap-10">
         <AboutMeSlot title="A musician" picture={Nuppu} alt="Ukko playing the guitar"/>
         <AboutMeSlot title="An artist" picture={Nuppu} alt="Ukko drawing"/>
